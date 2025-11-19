@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 01 — Personal Landing Page</title>
+  <!-- Example web font (optional). Remove if you prefer system fonts. -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+  <h1 class="site-title">Garrett Murchinson</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero container">
+      <div class="hero-content">
+  <h2>Hi — I'm <span class="accent">Garrett Murchinson</span></h2>
+        <p class="lead">I build thoughtful front-end experiences focused on clarity, accessibility, and visual polish. I enjoy solving layout and interaction problems with clean, modern HTML and CSS.</p>
+        <p><a class="cta" href="#projects">See my projects</a></p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <img src="thumb.png" alt="Placeholder thumbnail" loading="lazy">
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About</h3>
+      <p>I'm a front-end developer and student based in Lubbock, TX. I study web development at Texas Tech University and enjoy turning complex UI requirements into clear, accessible, and responsive experiences. My focus is on semantic HTML, thoughtful CSS, and crafting interfaces that feel polished while staying maintainable.</p>
+      <p>Outside of coding I enjoy photography, experimenting with visual design, and learning new CSS techniques to improve performance and accessibility.</p>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h3>Skills & Interests</h3>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h4>HTML & Semantic Markup</h4>
+          <p>Writing accessible, semantic HTML that communicates structure to humans and machines.</p>
+        </article>
+        <article class="skill-card">
+          <h4>CSS & Layout</h4>
+          <p>Flexbox, responsive layouts, animations, and maintaining visual rhythm with the box model.</p>
+        </article>
+        <article class="skill-card">
+          <h4>Design & UX</h4>
+          <p>Color systems, typographic scale, and designing for clarity and ease of use.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=60&auto=format&fit=crop" alt="Portfolio project thumbnail" loading="lazy">
+          <h4>Personal Landing Page</h4>
+          <p>A handcrafted personal landing page showcasing semantic HTML and responsive CSS. Built with a focus on typographic scale, accessible navigation, and lightweight CSS variables for theming.</p>
+          <p><a class="project-link" href="#">View details</a></p>
+        </article>
+
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=60&auto=format&fit=crop" alt="Interactive buttons demo thumbnail" loading="lazy">
+          <h4>Interactive Buttons Demo</h4>
+          <p>A small UI study of interactive buttons using CSS transitions and transforms. Demonstrates hover states, motion timing, and accessible focus styles.</p>
+          <p><a class="project-link" href="#">View details</a></p>
+        </article>
+
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?w=800&q=60&auto=format&fit=crop" alt="DevTools edits thumbnail" loading="lazy">
+          <h4>DevTools Vandalism (Practice)</h4>
+          <p>A playful exercise in using browser DevTools to explore and prototype visual changes in real time — great for rapid experimentation before codifying styles.</p>
+          <p><a class="project-link" href="#">View details</a></p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+  <p>Contact: <a href="mailto:experience.hendrix91@gmail.com">experience.hendrix91@gmail.com</a></p>
+      <p class="muted">Location: Lubbock, TX (example)</p>
+    </div>
+  </footer>
+
+</body>
+</html>
